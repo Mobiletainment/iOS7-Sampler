@@ -69,7 +69,7 @@
     
     if (!([CMStepCounter isStepCountingAvailable] || [CMMotionActivityManager isActivityAvailable])) {
         
-        NSString *msg = @"CMStepCounter and CMMotionActivityManager are not available. These classes need M7 coprocessor, so this sample works only on iPhone5s.";
+        NSString *msg = @"CMStepCounter and CMMotionActivityManager are not available. These classes need M7 coprocessor, so this sample currently works only on iPhone5s, iPad Air and iPad mini with Retina display.";
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Not Supported"
                                                         message:msg
                                                        delegate:nil
